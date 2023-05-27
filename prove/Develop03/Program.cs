@@ -24,11 +24,13 @@ namespace Develop03
 
                 if (input == "")
                 {
+                    Console.Clear();
                     words.HideWords();
-                    Console.WriteLine($"\n\n\n\n\n\n\n\n\n\n\n\n{reference.GetReference()}");
+                    Console.WriteLine($"{reference.GetReference()}");
                     Console.WriteLine($"{words.GetHiddenScripture()}\n");
                 } else if (input == "quit")
                 {
+                    Console.Clear();
                     quit = true;
                 } else if (input == "show")
                 {
