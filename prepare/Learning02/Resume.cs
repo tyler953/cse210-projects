@@ -1,6 +1,7 @@
 using System;
 
-namespace Learning02{
+namespace Learning02
+{
     public class Resume
     {
         public string _name;
